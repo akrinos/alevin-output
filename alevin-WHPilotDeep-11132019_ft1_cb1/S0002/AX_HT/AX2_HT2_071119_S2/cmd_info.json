@@ -1,0 +1,15 @@
+{
+    "salmon_version": "0.14.1",
+    "libType": "ISR",
+    "mates1": "/vortexfs1/omics/alexander/data/single-cell/2019-08-singlecell-deep/WH_Pilot_masking/S0002/AX2_HT2_071119_S2_R1_001.fastq.gz",
+    "mates2": "/vortexfs1/omics/alexander/data/single-cell/2019-08-singlecell-deep/WH_Pilot_masking/S0002/AX2_HT2_071119_S2_R2_001.fastq.gz",
+    "dropseq": [],
+    "index": "data/indices/AX_HT_index",
+    "threads": "10",
+    "output": "/vortexfs1/omics/alexander/data/single-cell/alevin-WHPilotDeep-11132019_ft1_cb1/S0002/AX_HT/AX2_HT2_071119_S2",
+    "tgMap": "data/tgMap_AX_HT.tsv",
+    "keepCBFraction": "1",
+    "freqThreshold": "1",
+    "dumpFeatures": [],
+    "auxDir": "aux_info"
+}

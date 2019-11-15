@@ -1,0 +1,32 @@
+[2019-11-13 13:04:50.682] [alevinLog] [warning] Force Cells to 1 fraction of All possible CB.This is not recommended way to run the pipeline,and it might slow the pipeline
+[2019-11-13 13:04:50.714] [alevinLog] [info] Loading Header
+[2019-11-13 13:04:50.715] [alevinLog] [info] Loading Transcript Info 
+[2019-11-13 13:04:50.892] [alevinLog] [info] Found all transcripts to gene mappings
+[2019-11-13 13:04:50.899] [alevinLog] [info] Processing barcodes files (if Present) 
+
+ 
+[2019-11-13 13:09:06.037] [alevinLog] [info] Done barcode density calculation.
+[2019-11-13 13:09:06.037] [alevinLog] [info] # Barcodes Used: [32m181421155[0m / [31m181471439[0m.
+[2019-11-13 13:09:07.065] [alevinLog] [info] Forcing to use 100000 cells
+[2019-11-13 13:09:08.179] [alevinLog] [info] Throwing 0 barcodes with < 1 reads
+[2019-11-13 13:09:08.219] [alevinLog] [info] Total [32m100840[0m(has [32m840[0m low confidence) barcodes
+[2019-11-13 13:09:10.788] [alevinLog] [info] Done True Barcode Sampling
+[2019-11-13 13:09:11.603] [alevinLog] [info] Total 17.9618% reads will be thrown away because of noisy Cellular barcodes.
+[2019-11-13 13:09:16.738] [alevinLog] [info] Done populating Z matrix
+[2019-11-13 13:09:18.215] [alevinLog] [info] Total 4870958 CB got sequence corrected
+[2019-11-13 13:09:18.530] [alevinLog] [info] Done indexing Barcodes
+[2019-11-13 13:09:18.530] [alevinLog] [info] Total Unique barcodes found: 6084885
+[2019-11-13 13:09:18.530] [alevinLog] [info] Used Barcodes except Whitelist: 2126350
+[2019-11-13 13:09:20.137] [alevinLog] [info] Done with Barcode Processing; Moving to Quantify
+
+[2019-11-13 13:09:20.138] [alevinLog] [info] parsing read library format
+[2019-11-13 13:13:12.614] [alevinLog] [info] Starting optimizer
+
+
+[2019-11-13 13:13:43.009] [alevinLog] [info] Total 257609.00 UMI after deduplicating.
+[2019-11-13 13:13:43.009] [alevinLog] [info] Total 23493 BiDirected Edges.
+[2019-11-13 13:13:43.009] [alevinLog] [info] Total 23320 UniDirected Edges.
+[2019-11-13 13:13:43.009] [alevinLog] [warning] Skipped 62744 barcodes due to No mapped read
+[2019-11-13 13:13:43.025] [alevinLog] [info] Clearing EqMap; Might take some time.
+[2019-11-13 13:13:43.057] [alevinLog] [warning] Num Low confidence barcodes too less 128 < 200.Can't performing whitelisting; Skipping
+[2019-11-13 13:13:43.057] [alevinLog] [info] Finished optimizer
